@@ -1,0 +1,78 @@
+.header {
+  background-color: rgba(0, 33, 122, 0.712);
+  height: 60vh;
+}
+.topbar {
+  background-color: rgba(5, 59, 110, 0.774);
+  color: white;
+  overflow: hidden;
+}
+.top {
+  font-size: 12.5px;
+  text-align: right;
+  padding-top: 0.5%;
+}
+
+i {
+  padding: 0.3%;
+}
+h6 {
+  color: rgb(255, 255, 255);
+  font-weight: 100px;
+}
+.nav-item {
+  padding-top: 1.1%;
+}
+h6:hover {
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+.test {
+  background-color: rgb(255, 157, 46);
+  border: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 0.2rem;
+}
+main {
+  margin-top: -21%;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  padding: 2%;
+}
+.box1 {
+  grid-row: 1/3;
+  padding: 1%;
+  min-height: 55vh;
+  min-height: 55vh;
+}
+.box2 {
+  padding: 1%;
+  margin-top: 1%;
+  max-height: 55vh;
+  min-height: 55vh;
+}
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: -32%;
+  padding: 1%;
+  max-height: 55vh;
+  min-height: 55vh;
+}
+.nav2 {
+  display:flex;
+  margin: 2rem;
+  margin-top: -12%;
+  border-radius: 0.5rem;
+  background-color: rgba(4, 38, 129, 0.774);
+  padding: 0.4%
+}
+.nav2-bt{
+  background-color: rgb(255, 157, 46);
+  border: none;
+  border-radius: 0.2rem;
+}
+.dropdown {
+  width:50vw;
+  padding: 0.1%
+}
